@@ -9,6 +9,7 @@
     <script src="TemplateData/UnityProgress.javascript"></script>
     <script src="Build/UnityLoader.js"></script>
     <script>
+        UnityLoader.SystemInfo.mobile = false;
         var gameInstance = UnityLoader.instantiate("gameContainer", "Build/Reureu6.json", {onProgress: UnityProgress});
     </script>
     <meta name=”twitter:card” content=”summary“> 
